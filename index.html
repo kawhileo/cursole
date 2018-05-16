@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .house{
+            perspective: 800px;
+             position: relative;
+             width: 500px;
+             height: 500px;
+        }
+        .container{
+            transform-style:preserve-3d;
+           width: 500px;
+           height: 500px;
+            
+        }
+        .container img{
+            width: 128px;
+            height: 128px;
+            position: absolute;
+            top: 173px;
+            left: 395px;
+            
+        }
+        img:nth-child(1){transform: rotateY(0deg) translateZ(195.839px);}
+        img:nth-child(2){transform: rotateY(40deg) translateZ(195.839px);}
+        img:nth-child(3){transform: rotateY(80deg) translateZ(195.839px);}
+        img:nth-child(4){transform: rotateY(120deg) translateZ(195.839px);}
+        img:nth-child(5){transform: rotateY(160deg) translateZ(195.839px);}
+        img:nth-child(6){transform: rotateY(200deg) translateZ(195.839px);}
+        img:nth-child(7){transform: rotateY(240deg) translateZ(195.839px);}
+        img:nth-child(8){transform: rotateY(280deg) translateZ(195.839px);}
+        img:nth-child(9){transform: rotateY(320deg) translateZ(195.839px);}
+
+    </style>
+</head>
+<body>
+    <div class="house">
+        <div class="container">
+            <img src="img/balidao.jpg" alt="">
+            <img src="img/dali.jpg" alt="">
+            <img src="img/3.jpg" alt="">
+            <img src="img/europe.jpg" alt="">
+            <img src="img/lijiang.jpg" alt="">
+            <img src="img/medf.jpg" alt="">
+            <img src="img/pjd.jpg" alt="">
+            <img src="img/sanya.jpg" alt="">
+            <img src="img/xiamen.jpg" alt="">
+        </div>
+    </div>
+    <script></script>
+</body>
+</html>
